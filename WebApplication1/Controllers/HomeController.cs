@@ -34,7 +34,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult Test()
         {
-            ViewBag.Num = 42 + 12;
+            ViewBag.Num = 42 * 3;
             Console.WriteLine("Test");
             return View();
         }
