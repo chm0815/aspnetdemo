@@ -35,7 +35,7 @@ namespace WebApplication1.Controllers
         public ActionResult Test()
         {
             ViewBag.Num = 42 * 3;
-            Console.WriteLine("Test");
+            Console.WriteLine("email changed...");
             return View();
         }
 
